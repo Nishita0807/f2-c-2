@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.row{
+   
+    height: 76px;
+    background-color:  #000000;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+
+
+.row>div{
+    width:164px;
+height: 29px;
+margin-left:12px;
+
+font-weight: 400;
+font-size: 24px;
+line-height: 29.05px;
+
+}
+
+.search {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items vertically in the center */
+}
+
+#searchInput {
+    margin:12px;
+    width: 1215px; /* Adjust the width as needed */
+    height: 33px; /* Adjust the height as needed */
+    padding: 5px; /* Add padding to the input field */
+    font-size: 16px; /* Adjust the font size as needed */
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    border-radius: 5px; /* Add rounded corners */
+    
+}
+
+button{
+    font-size: 20px;
+    font-weight: 400;
+    color:white;
+    background-color: black;
+    width:180px;
+    height:45px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Distributes space evenly between items */
+    margin: 12px;
+  
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 217px;
+    height: 66px;
+    background-color: black;
+    color:white;
+    font-weight: 400;
+    font-size: 24px;
+  }
+  
+
+
+  table {
+    border-collapse: collapse; /* Collapse border spacing */
+    width: 98%; /* Make the table take 100% of its container's width */
+    margin:12px;
+  }
+  
+  td,th {
+    border: 1px solid #000; /* Add a 1px solid black border to each cell */
+    padding: 8px; /* Add some padding to space content from the border */
+  }
+  
+.custom-table{
+    width:98%;
+}
